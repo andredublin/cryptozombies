@@ -20,7 +20,7 @@ contract ZombieBattle is ZombieHelper {
       feedAndMultiply(_zombieId, enemyZombie.dna, "zombie");
     } else {
       myZombie.lossCount++;
-      enemyZOmbie.winCount++;
+      enemyZombie.winCount++;
     }
 
     _triggerCooldown(myZombie);
